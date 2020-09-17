@@ -12,7 +12,7 @@ Modules/Libraries used-
 -pyttsx3 
 
 2. Google Speech Recognition api
--speech_recognition
+-speech_recognition and PyAudio(pip install)
 
 3. For Deep Neural Network training for pattern recognition and response generation:
 -numpy
