@@ -1,0 +1,133 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving1", "Have a Good day"],
+         "responses": ["OK, Have a nice day !", "Sure, have a nice day!", "Goodbye!"],
+         "context_set": ""
+        },
+		{"tag": "Thanks",
+         "patterns": ["OK Thank you for the information.", "Thanks!", "Thank you", "OK Thank you"],
+         "responses": ["OK, Have a nice day !", "Sure, have a nice day!", "Goodbye!"],
+         "context_set": ""
+        },
+		{"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Roboception.", "I'm Roboception!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of visiting the college ?","When can we visit college"],
+         "responses": ["We are open 8am to 5pm Monday-Friday! and last two saturdays of the month"],
+         "context_set": ""
+        },
+		{"tag": "Director",
+         "patterns": ["Who is the Director of this college ?", "Who directs this college ?", "Who is Dean of the college","Who is the Director ?"],
+         "responses": ["Dr. S C Sharma is the director","Dr. S C Sharma"],
+         "context_set": ""
+        },
+		{"tag": "Director_CDC",
+         "patterns": ["Who is the Director of CDC ?", "Who directs CDC?", "Who is director of the Career Development Cell"],
+         "responses": ["Mister Atul Bharat is the director of CDC","Atul Bharat Sir","Mister Atul Bharat"],
+         "context_set": ""
+        },
+		{"tag": "Fees",
+         "patterns": ["what are Fees details ?", "can i know the fees structure"],
+         "responses": ["concern to fees counter which is at my left side","Please contact to the fees counter, there you will get entire details regarding fees"],
+         "context_set": ""
+        },
+		{"tag": "Computer Science Department",
+         "patterns": ["Who is Head of Department of Computer Science branch ?", "Head of Department of Computer Science branch","HOD of Computer Science branch","HOD of CSE department"],
+         "responses": ["Professor Sanjay Bansal is head of Department of C S branch", "Professor Sanjay Bansal"],
+         "context_set": ""
+        },
+		{"tag": "Electronics and Communication Department",
+         "patterns": ["Who is Head of Department of Electronics and Communication branch ?", "Head of Department of Electronics and Communication branch","HOD of Electronics and Communication branch","HOD of EC department"],
+         "responses": ["Proffesor Uday Bhanu Singh Chandrawat is head of Department of EC branch", "Professor Uday Bhanu Singh Chandrawat","HOD of ECE is Professor Uday Bhanu Singh Chandrawat"],
+         "context_set": ""
+        },
+		{"tag": "Information Technology Department",
+         "patterns": ["Who is Head of Department of Information Technology branch ?", "Head of Department of Information Technology branch","HOD of Information Technology branch","HOD of IT department"],
+         "responses": ["Dr. Kamal Kumar Sethi is head of Department of C S branch", "Dr. Kamal Kumar Sethi","HOD of IT is Dr. Kamal Kumar Sethi"],
+         "context_set": ""
+        },
+		{"tag": "Mechanical Department",
+         "patterns": ["Who is Head of Department of Mechanical branch ?", "Head of Department of Mechanical branch","HOD of Mechanical branch","HOD of Mechanical department"],
+         "responses": ["Professor Amit Marwah is head of Department of Mechanical Engineering", "Professor Amit Marwah","HOD of Mechanical department is Professor Amit Marwah"],
+         "context_set": ""
+        },
+		{"tag": "1",
+         "patterns": ["I want to meet Sanjay Bansal", "i wanna see Sanajy sir","want to meet Sanjay Bansal Sir","I have a meeting with Sanjay Bansal Sir"],
+         "responses": ["Sure, He will be in CS Department. let me inform him, by then you please have a look on map to CS department", "OK! you will find him in CS Department. Let me inform him, by then you please have a look on map to CS department"],
+         "context_set": ""
+        },
+		{"tag": "2",
+         "patterns": ["I want to meet Kavita Namdev", "i wanna see Kavita Namdev madam","want to meet Kavita Namdev","I have a meeting with Kavita Namdev madam"],
+         "responses": ["Sure, She will be in CS Department. let me inform her, by then you please have a look on map to CS department", "OK! you will find her in CS Department. Let me inform her, by then you please have a look on map to CS department"],
+         "context_set": ""
+        },
+		{"tag": "3",
+         "patterns": ["I want to meet Shilpa Bhalerao", "i wanna see Shilpa Bhalerao madam","want to meet Shilpa Bhalerao","I have a meeting with Shilpa Bhalerao madam"],
+         "responses": ["Sure, She will be in CS Department. let me inform her, by then you please have a look on map to CS department", "OK! you will find her in CS Department. Let me inform her, by then you please have a look on map to CS department"],
+         "context_set": ""
+        },
+		{"tag": "4",
+         "patterns": ["I want to meet Kamal Kumar Sethi", "i wanna see Kamal Kumar Sethi","want to meet Kamal Kumar Sethi Sir","I have a meeting with Kamal Kumar Sethi Sir"],
+         "responses": ["Sure, He will be in IT Department. let me inform him, by then you please have a look on map to IT department", "OK! you will find him in IT Department. Let me inform him, by then you please have a look on map to IT department"],
+         "context_set": ""
+        },
+		{"tag": "5",
+         "patterns": ["I want to meet Uday Bhanu Singh Chandrawat", "i wanna see Chandrawat sir","want to meet Chandrawat Sir","I have a meeting with Uday Bhanu Singh Chandrawat"],
+         "responses": ["Sure, He will be in EC Department. let me inform him, by then you please have a look on map to EC department", "OK! you will find him in EC Department. Let me inform him, by then you please have a look on map to EC department"],
+         "context_set": ""
+        },
+		{"tag": "6",
+         "patterns": ["I want to meet Amit Marwah", "i wanna see Amit sir","want to meet Amit Marwah Sir","I have a meeting with Amit Marwah Sir"],
+         "responses": ["Sure, He will be in Mechanical Department. let me inform him, by then you please have a look on map to Mechanical department", "OK! you will find him in Mechanical Department. Let me inform him, by then you please have a look on map to Mechanical department"],
+         "context_set": ""
+        },
+		{"tag": "7",
+         "patterns": ["I want to meet Director sir", "Director has called me","Can i meet Director sir ?","I have a meeting with Sharma Sir"],
+         "responses": ["Sure, He will see you in his cabin. let me inform him, by then you please have a look on map to the cabin", "OK! you will find him in his cabin. Let me inform him, by then you please have a look on map to the cabin"],
+         "context_set": ""
+        },
+		{"tag": "8",
+         "patterns": ["I want to meet Atul Bharat sir", "Atul Bharat Sir has called me","Can i meet Director of Career Development Cell ?","Can i meet Director of CDC ?","I need to see Atul sir ?"],
+         "responses": ["Sure, He will see you in CDC. let me inform him, by then you please have a look on map to head to the CDC", "OK! you will find him in his cabin, in CDC. Let me inform him, by then you please have a look on map to CDC"],
+         "context_set": ""
+        },
+		{"tag": "9",
+         "patterns": ["I want to meet Jaynam Sanghvi sir", "i wanna see Jaynam Sir","want to meet Jaynam Sanghvi Sir","I have a meeting with Jaynam Sanghvi Sir"],
+         "responses": ["Sure, He will be in CDC. let me inform him, by then you please have a look on map to CDC", "OK! you will find him in Career Development Cell. Let me inform him, by then you please have a look on map to CDC."],
+         "context_set": ""
+        },
+		{"tag": "canteen_path",
+         "patterns": ["Where is canteen", "where I can find canteen ?","Where is cafeteria ?"],
+         "responses": ["Go straight along the road, please have a look on map to refer."],
+         "context_set": ""
+        },
+		{"tag": "Transport_path",
+         "patterns": ["Where is Transport Office", "where I can find Transport Office ?"],
+         "responses": ["It is just besides stairs, Please have a look on map to Transport Office", "You will find it just besides the stairs, please have a look on map that will head yxou to it."],
+         "context_set": ""
+        },
+		{"tag": "Student_window_path",
+         "patterns": ["Where is Student window", "where I can find Student window ?"],
+         "responses": ["It is just next to sitting area, Please have a look on map to Student window", "You will find it just next to sitting area, infront of fees counter, please have a look on map that will head yxou to it."],
+         "context_set": ""
+        },
+		{"tag": "Fees_path",
+         "patterns": ["Where is Student window", "where I can find Student window ?"],
+         "responses": ["It is just next to sitting area, Please have a look on map to Student window", "You will find it just next to sitting area, infront of fees counter, please have a look on map that will head yxou to it."],
+         "context_set": ""
+        },
+		{"tag": "CDC_path",
+         "patterns": ["Where is CDC", "where is Career Development Cell ?"],
+         "responses": ["Head straight through the lobby", "You will find it just next to sitting area, infront of fees counter, please have a look on map that will head yxou to it."],
+         "context_set": ""
+        }
+   ]
+}
