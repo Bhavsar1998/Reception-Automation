@@ -11,7 +11,7 @@ Modules/Libraries used-
 1. Text To Speech
 -pyttsx3 
 
-2.Google Speech Recognition api
+2. Google Speech Recognition api
 -speech_recognition
 
 3. For Deep Neural Network training for pattern recognition and response generation:
