@@ -8,7 +8,13 @@ Also set the path directories in python files to handle the file not found error
 
 Modules/Libraries used-
 
-1. For Deep Neural Network training for pattern recognition and response generation:
+1. Text To Speech
+-pyttsx3 
+
+2.Google Speech Recognition api
+-speech_recognition
+
+3. For Deep Neural Network training for pattern recognition and response generation:
 -numpy
 -tflearn
 -tensorflow
@@ -16,14 +22,8 @@ Modules/Libraries used-
 -json
 -pickle
 
-2. SQLyog used for MYSql Management in DB
+4. SQLyog used for MYSql Management in DB
 -MySqldb
-
-3. Text To Speech
--pyttsx3
-
-4.Google Speech Recognition api
--speech_recognition
 
 5. Twilio REST API
 -twilio.rest
