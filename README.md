@@ -4,6 +4,8 @@ Reception Automation automates the processes and tasks accomplished at the Front
 Setup the environment variables for the local system and proper project interpreter (recommended - Python 3.6) in your IDE.
 Install required Site packages.
 
+Also set the path directories in python files to handle the file not found errors.
+
 Modules/Libraries used-
 
 1. For Deep Neural Network training for pattern recognition and response generation:
